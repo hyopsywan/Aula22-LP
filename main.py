@@ -4,7 +4,7 @@ operacao= input("escolha uma operacao (+,-,*,/)")
 a = int (input ("Digite um valor:"))
 b = int (input ("Digite um segundo valor:"))
 
-if operacao == "+"
+if operacao == "+":
     resultado = soma (a,b)
 
 elif operacao == "+":
@@ -19,4 +19,4 @@ elif operacao == "*":
 elif operacao == "/": 
     resltado = divisao (a,b)   
 
-    exibir_resultado (operacao, resultado)
+exibir_resultado (operacao, resultado)
